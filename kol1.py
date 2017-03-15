@@ -21,3 +21,28 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+
+
+def add_matrix (mat1,mat2):
+	int i = 0
+	result = [
+         [0,0,0],
+         [0,0,0]]
+	for i in range(len(2)):
+   		# iterate through columns
+   		for j in range(len(2)):
+       			result[i][j] = X[i][j] + Y[i][j]
+	return result
+	
+def mult_matrix (mat1,mat2):
+	int i = 0
+	result = [
+         [0,0,0],
+         [0,0,0]]
+	for i in range(len(2)):
+   		# iterate through columns
+   		for j in range(len(2)):
+       			result[i][j] = X[i][j] * Y[i][j]
+	return result
+	
